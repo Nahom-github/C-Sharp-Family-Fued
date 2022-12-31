@@ -1,0 +1,10 @@
+C:\Users\nahom\source\repos\Family Fued\bin\Debug\Family Fued.exe.config
+C:\Users\nahom\source\repos\Family Fued\bin\Debug\Family Fued.exe
+C:\Users\nahom\source\repos\Family Fued\bin\Debug\Family Fued.pdb
+C:\Users\nahom\source\repos\Family Fued\obj\Debug\Family Fued.csprojAssemblyReference.cache
+C:\Users\nahom\source\repos\Family Fued\obj\Debug\Family_Fued.Form1.resources
+C:\Users\nahom\source\repos\Family Fued\obj\Debug\Family_Fued.Properties.Resources.resources
+C:\Users\nahom\source\repos\Family Fued\obj\Debug\Family Fued.csproj.GenerateResource.cache
+C:\Users\nahom\source\repos\Family Fued\obj\Debug\Family Fued.csproj.CoreCompileInputs.cache
+C:\Users\nahom\source\repos\Family Fued\obj\Debug\Family Fued.exe
+C:\Users\nahom\source\repos\Family Fued\obj\Debug\Family Fued.pdb
