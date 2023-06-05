@@ -43,70 +43,70 @@ namespace Family_Fued
         private void btnanswer_Click(object sender, EventArgs e)
         {
            
-                if (txtanswer.Text == "Spain" && !spain) // if player inputs the right answer their score goes up by the designated score
-                {
-                    right.Play();
-                    lbl1.Text = "Spain";
-                    number = number + 80;
-                    lblscore.Text = "Score:" + number + "";
-                    spain = true;
-                }
-                else if (txtanswer.Text == "Mexico" && !mexico)
-                {
-                    right.Play();
-                    lbl2.Text = "Mexico";
-                    number = number + 70;
-                    lblscore.Text = "Score:" + number + "";
-                    mexico = true;
-                }
-                else if (txtanswer.Text == "USA" && !USA)
-                {
-                    right.Play();
-                    lbl3.Text = "USA";
-                    number = number + 60;
-                    lblscore.Text = "Score:" + number + "";
-                    USA = true;
-                }
-                else if (txtanswer.Text == "Cuba" && !Cuba)
-                {
-                    right.Play();
-                    lbl4.Text = "Cuba";
-                    number = number + 50;
-                    lblscore.Text = "Score:" + number + "";
-                    Cuba = true;
-                }
-                else if (txtanswer.Text == "Argentina" && !argentina)
-                {
-                    right.Play();
-                    lbl5.Text = "Argentina";
-                    number = number + 40;
-                    lblscore.Text = "Score:" + number + "";
-                    argentina = true;
-                }
-                else if (txtanswer.Text == "Costa Rica" && !costa)
-                {
-                    right.Play();
-                    lbl6.Text = "Costa Rica";
-                    number = number + 30;
-                    lblscore.Text = "Score:" + number + "";
-                    costa = true;
-                }
-                else if (txtanswer.Text == "Chile" && !chile)
-                {
-                    right.Play();
-                    lbl7.Text = "Chile";
-                    number = number + 20;
-                    lblscore.Text = "Score:" + number + "";
-                    chile = true;
-                }
-                else if (txtanswer.Text == "Colombia" && !colombia)
-                {
-                    right.Play();
-                    lbl8.Text = "Colombia";
-                    number = number + 10;
-                    lblscore.Text = "Score:" + number + "";
-                    colombia = true;
-                }
+                if (string.Equals(txtanswer.Text, "Spain", StringComparison.OrdinalIgnoreCase) && !spain)
+            {
+                right.Play();
+                lbl1.Text = "Spain";
+                number += 80;
+                lblscore.Text = "Score:" + number + "";
+                spain = true;
+            }
+            else if (string.Equals(txtanswer.Text, "Mexico", StringComparison.OrdinalIgnoreCase) && !mexico)
+            {
+                right.Play();
+                lbl2.Text = "Mexico";
+                number += 70;
+                lblscore.Text = "Score:" + number + "";
+                mexico = true;
+            }
+            else if (string.Equals(txtanswer.Text, "USA", StringComparison.OrdinalIgnoreCase) && !USA)
+            {
+                right.Play();
+                lbl3.Text = "USA";
+                number += 60;
+                lblscore.Text = "Score:" + number + "";
+                USA = true;
+            }
+            else if (string.Equals(txtanswer.Text, "Cuba", StringComparison.OrdinalIgnoreCase) && !Cuba)
+            {
+                right.Play();
+                lbl4.Text = "Cuba";
+                number += 50;
+                lblscore.Text = "Score:" + number + "";
+                Cuba = true;
+            }
+            else if (string.Equals(txtanswer.Text, "Argentina", StringComparison.OrdinalIgnoreCase) && !argentina)
+            {
+                right.Play();
+                lbl5.Text = "Argentina";
+                number += 40;
+                lblscore.Text = "Score:" + number + "";
+                argentina = true;
+            }
+            else if (string.Equals(txtanswer.Text, "Costa Rica", StringComparison.OrdinalIgnoreCase) && !costa)
+            {
+                right.Play();
+                lbl6.Text = "Costa Rica";
+                number += 30;
+                lblscore.Text = "Score:" + number + "";
+                costa = true;
+            }
+            else if (string.Equals(txtanswer.Text, "Chile", StringComparison.OrdinalIgnoreCase) && !chile)
+            {
+                right.Play();
+                lbl7.Text = "Chile";
+                number += 20;
+                lblscore.Text = "Score:" + number + "";
+                chile = true;
+            }
+            else if (string.Equals(txtanswer.Text, "Colombia", StringComparison.OrdinalIgnoreCase) && !colombia)
+            {
+                right.Play();
+                lbl8.Text = "Colombia";
+                number += 10;
+                lblscore.Text = "Score:" + number + "";
+                colombia = true;
+            }
 
 
 
